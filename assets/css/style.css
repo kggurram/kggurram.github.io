@@ -1,0 +1,54 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: "smooth-scroll";
+}
+
+body {
+  padding-top: 8%;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  border: 5px solid #0366d6;
+}
+
+h1 {
+  padding-top: 2.5rem;
+  font-size: 7rem;
+  color: black;
+}
+
+p {
+  font-size: 3rem;
+  color: rgb(66, 66, 66);
+}
+
+strong {
+  color: #0366d6;
+}
+
+i {
+  padding-right: 10px;
+  color: #0366d6;
+}
+
+.links   {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  color: rgb(63, 63, 63);
+}
+
+a{
+  text-decoration: none;
+  color: rgb(63, 63, 63); ;
+}
+
+a:hover {
+  color: #0366d6;
+}
+
+.btn {
+  margin-top: 3rem;
+}
