@@ -1,0 +1,58 @@
+[
+    {
+        "id": "0",
+        "index": 0,
+        "name": "jasontsan.com",
+        "lang": "TypeScript",
+        "desc": "a clean & simple business website for Jason Tsan Barbering",
+        "link": "https://jasontsan.com"
+    },
+    {
+        "id": "1",
+        "index": 1,
+        "name": "klue",
+        "lang": "TypeScript",
+        "desc": "a simple UI clone of Netflix using TMDB API",
+        "link": "https://klue-gray.vercel.app"
+    },
+    {
+        "id": "2",
+        "index": 2,
+        "name": "r2-d2",
+        "lang": "Python",
+        "desc": "a slightly short-circuited astromech droid for Discord",
+        "link": "https://github.com/kggurram/R2-D2"
+    },
+    {
+        "id": "3",
+        "index": 3,
+        "name": "spotify dbms",
+        "lang": "SQL",
+        "desc": "database management application developed for CPS510",
+        "link": "https://github.com/kggurram/spotify-dbms"
+    },
+    {
+        "id": "4",
+        "index": 4,
+        "name": "(project #5)",
+        "lang": "language",
+        "desc": "description",
+        "link": ""
+    },
+    {
+        "id": "5",
+        "index": 5,
+        "name": "(project #6)",
+        "lang": "language",
+        "desc": "description",
+        "link": ""
+    },
+    {
+        "id": "6",
+        "index": 6,
+        "name": "(project #7)",
+        "lang": "language",
+        "desc": "description",
+        "link": ""
+    }
+]

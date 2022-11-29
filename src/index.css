@@ -10,13 +10,18 @@
   /* border-width: 1px;
   border-color: red; */
 
-  background-color: rgb(23, 24, 26);
+  background-color: rgb(23 23 23);
   color: rgb(230, 230, 230);
 }
+
 
 *::-webkit-scrollbar {
   display: none;
 }
+
+/* .card {
+  background-color: rgb(26, 26, 26);
+} */
 
 /* .wrapper {
   --scrollbar-width: 1px;
