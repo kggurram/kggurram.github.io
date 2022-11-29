@@ -2,7 +2,7 @@ import React from "react";
 
 const Scroller = () => {
   return (
-    <div className="flex-1 overflow-y-scroll mt-20">
+    <div className="sm:flex sm:overflow-y-scroll mt-20">
       <p className="">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
         tristique augue vel ex feugiat, a placerat nunc efficitur. Morbi

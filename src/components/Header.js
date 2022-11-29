@@ -15,7 +15,7 @@ const Header = () => {
           <em>Paper thing for recruiters</em> */}
         </a>
       </div>
-      <div className="mt-auto mb-28 flex space-x-8">
+      <div className="md:mt-auto mb-28 flex space-x-8">
         <img
           className="rounded-full"
           alt=""
