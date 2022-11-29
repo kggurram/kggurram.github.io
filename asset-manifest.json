@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/https//kggurram.github.io/kggurram.github.io/static/css/main.073c9b0a.css",
-    "main.js": "/https//kggurram.github.io/kggurram.github.io/static/js/main.374a93a1.js",
-    "static/js/787.37faa4c4.chunk.js": "/https//kggurram.github.io/kggurram.github.io/static/js/787.37faa4c4.chunk.js",
-    "static/media/logo.svg": "/https//kggurram.github.io/kggurram.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/https//kggurram.github.io/kggurram.github.io/static/css/main.17ea7218.css",
+    "main.js": "/https//kggurram.github.io/kggurram.github.io/static/js/main.b5ddc0fe.js",
+    "static/media/kg.jpg": "/https//kggurram.github.io/kggurram.github.io/static/media/kg.1ca52d58e05070a24018.jpg",
     "index.html": "/https//kggurram.github.io/kggurram.github.io/index.html",
-    "main.073c9b0a.css.map": "/https//kggurram.github.io/kggurram.github.io/static/css/main.073c9b0a.css.map",
-    "main.374a93a1.js.map": "/https//kggurram.github.io/kggurram.github.io/static/js/main.374a93a1.js.map",
-    "787.37faa4c4.chunk.js.map": "/https//kggurram.github.io/kggurram.github.io/static/js/787.37faa4c4.chunk.js.map"
+    "main.17ea7218.css.map": "/https//kggurram.github.io/kggurram.github.io/static/css/main.17ea7218.css.map",
+    "main.b5ddc0fe.js.map": "/https//kggurram.github.io/kggurram.github.io/static/js/main.b5ddc0fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.374a93a1.js"
+    "static/css/main.17ea7218.css",
+    "static/js/main.b5ddc0fe.js"
   ]
 }
