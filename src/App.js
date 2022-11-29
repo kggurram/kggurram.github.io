@@ -4,11 +4,11 @@ import Scroller from "./components/Scroller";
 
 function App() {
   return (
-    <div className="md:flex md:h-screen justify-center space-x-24">
-      <div className="xl:w-1/4 md:w-1/3 w-fit">
+    <div className="lg:flex lg:justify-center lg:w-5/6 lg:h-screen mx-auto">
+      <div className="2xl:w-full lg:w-full">
         <Header />
       </div>
-      <div className="xl:w-1/4 md:w-1/3 w-fit md:flex md:overflow-hidden">
+      <div className="lg:flex lg:overflow-hidden 2xl:w-4/5 lg:w-full">
         <Scroller />
       </div>
     </div>

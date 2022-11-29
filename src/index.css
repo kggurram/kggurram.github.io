@@ -6,9 +6,10 @@
 
 * {
   font-family: 'Inter', sans-serif;
-  overflow: hidden;
-  border-width: 1px;
-  border-color: red;
+
+  /* border-width: 1px;
+  border-color: red; */
+
   background-color: rgb(23, 24, 26);
   color: rgb(230, 230, 230);
 }
@@ -16,6 +17,45 @@
 *::-webkit-scrollbar {
   display: none;
 }
+
+/* .wrapper {
+  --scrollbar-width: 1px;
+
+  --mask-height: 200px;
+
+  overflow-y: auto;
+  ;
+
+
+  padding-bottom: var(--mask-height);
+
+
+
+
+  --mask-image-content: linear-gradient(to bottom,
+
+      black var(--mask-height),
+      black calc(0% - var(--mask-height)),
+      transparent);
+
+  --mask-size-content: calc(100% - var(--scrollbar-width)) 100%;
+
+
+  --mask-image-scrollbar: linear-gradient(rgb(0, 0, 0), black);
+
+
+  --mask-size-scrollbar: var(--scrollbar-width) 100%;
+
+
+  mask-image: var(--mask-image-content), var(--mask-image-scrollbar);
+  mask-size: var(--mask-size-content), var(--mask-size-scrollbar);
+
+
+  mask-position: 0 0, 100% 0;
+
+
+  mask-repeat: no-repeat, no-repeat;
+} */
 
 body {
   margin: 0;
