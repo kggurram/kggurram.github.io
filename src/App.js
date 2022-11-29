@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/Header";
+import Scroller from "./components/Scroller";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex h-screen justify-center space-x-24">
+      <div className="xl:w-1/4 md:w-1/3 sm:w-1/3">
+        <Header />
+      </div>
+      <div className="xl:w-1/4 md:w-1/3 sm:w-1/3 flex overflow-hidden">
+        <Scroller />
+      </div>
     </div>
   );
 }
