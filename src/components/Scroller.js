@@ -1,15 +1,12 @@
 import React from "react";
 import Card from "./Card";
-import { useState, useEffect } from "react";
 import projects from "../assets/projects.json";
 
 const Scroller = () => {
-  useEffect(() => {}, []);
-
   return (
-    <div className="w-full wrapper 2xl:px-0 2xl:ml-16 lg:overflow-y-scroll lg:pt-12 lg:px-0 lg:my-0 md:px-20 sm:px-12 mb-12 pt-12 px-8 space-y-16">
+    <div className="w-full wrapper xl:grid xl:grid-cols-2 2xl:gap-x-28 xl:gap-x-12 xl:gap-y-10 xl:px-0 xl:space-y-0 2xl:px-0  lg:overflow-y-scroll lg:pt-12 lg:px-0 lg:my-0 md:px-20 sm:px-12 mb-12 py-12 px-8 space-y-16">
       {projects.map((project, idx) => {
-        console.log(project.name);
+        // console.log(project.name);
         return (
           <Card
             key={idx}
@@ -17,6 +14,7 @@ const Scroller = () => {
             projLang={project.lang}
             projDesc={project.desc}
             projLink={project.link}
+            projImg={project.img}
           />
         );
       })}

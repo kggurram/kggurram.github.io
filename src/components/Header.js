@@ -5,20 +5,29 @@ const Header = () => {
   return (
     <div className="flex flex-col lg:h-screen 2xl:mr-16 lg:pt-12 lg:px-0 md:px-20 sm:px-12 pt-12 px-8 mx-auto">
       <div className="flex flex-col space-y-4">
-        <h1 className="2xl:text-9xl lg:text-8xl text-6xl font-bold h-fit lg:pb-6 pb-2">
-          karthik gurram.
-        </h1>
-        <h2 className="2xl:text-4xl lg:text-3xl text-2xl font-semibold h-fit pb-4 ">
-          Software Engineer
+        <div className="flex ">
+          <h1 className="2xl:text-9xl lg:text-8xl text-6xl font-bold h-fit w-full lg:pb-6 pb-2">
+            karthik gurram<em className="not-italic text-teal-400">.</em>
+          </h1>
+          <div className="w-full h-full 2xl:pt-36 2xl:pl-8 xl:pt-24 xl:pl-8 xl:inline hidden">
+            <img
+              className="wave"
+              src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif"
+            ></img>
+          </div>
+        </div>
+
+        <h2 className="2xl:text-5xl lg:text-4xl text-3xl font-semibold h-fit pb-4 text-teal-400">
+          software engineer
         </h2>
-        <p className="text-neutral-500 text-lg">
-          Software engineer experienced in{" "}
-          <em className="not-italic">full stack development</em> with a high
-          interest in <em className="not-italic">machine learning</em> &
-          building projects that matter.
+        <p className="text-neutral-500 text-xl">
+          Experienced in <em className="not-italic">full stack development</em>{" "}
+          with a high interest in{" "}
+          <em className="not-italic">machine learning</em> & building projects
+          that matter.
         </p>
         <p className="text-teal-400 pb-8">
-          new portfolio under construction . . .
+          portfolio currently under construction . . .
         </p>
         {/* <a className="flex space-x-3 py-8">
           <svg viewBox="0 0 48 48" width="25" height="25" fill="#e6e6e6">

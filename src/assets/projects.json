@@ -2,10 +2,11 @@
     {
         "id": "0",
         "index": 0,
-        "name": "jasontsan.com",
+        "name": "jasontsan",
         "lang": "TypeScript",
         "desc": "a clean & simple business website for Jason Tsan Barbering",
-        "link": "https://jasontsan.com"
+        "link": "https://jasontsan.com",
+        "img": "../assets/gradient.jpg"
     },
     {
         "id": "1",
@@ -51,6 +52,14 @@
         "id": "6",
         "index": 6,
         "name": "(project #7)",
+        "lang": "language",
+        "desc": "description",
+        "link": ""
+    },
+    {
+        "id": "7",
+        "index": 7,
+        "name": "(project #8)",
         "lang": "language",
         "desc": "description",
         "link": ""
