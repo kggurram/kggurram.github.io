@@ -6,28 +6,28 @@
         "link": ""
     },
     {
-        "name": "jasontsan",
-        "lang": "TypeScript | React",
-        "desc": "clean & simple business website for Jason Tsan Barbering",
-        "link": "https://jasontsan.com"
-    },
-    {
         "name": "medlist",
         "lang": "React | Firebase | Flask",
         "desc": "healthcare management system for patients & staff",
         "link": "https://snazzy-pika-22c974.netlify.app"
     },
     {
-        "name": "klue",
-        "lang": "TypeScript | Next.js | TMDB API",
-        "desc": "simple UI clone of Netflix using TMDB API",
-        "link": "https://klue-gray.vercel.app"
+        "name": "jasontsan",
+        "lang": "TypeScript | React",
+        "desc": "clean & simple business website for Jason Tsan Barbering",
+        "link": "https://jasontsan.com"
     },
     {
         "name": "r2-d2",
         "lang": "Python | Discord API",
         "desc": "slightly short-circuited astromech droid for Discord",
         "link": "https://github.com/kggurram/R2-D2"
+    },
+    {
+        "name": "klue",
+        "lang": "TypeScript | Next.js | TMDB API",
+        "desc": "simple UI clone of Netflix using TMDB API",
+        "link": "https://klue-gray.vercel.app"
     },
     {
         "name": "spotify dbms",
