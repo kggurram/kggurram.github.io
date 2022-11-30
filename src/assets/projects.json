@@ -1,67 +1,44 @@
 [
     {
-        "id": "0",
-        "index": 0,
-        "name": "jasontsan",
-        "lang": "TypeScript",
-        "desc": "a clean & simple business website for Jason Tsan Barbering",
-        "link": "https://jasontsan.com",
-        "img": "../assets/gradient.jpg"
+        "name": "autonomous drone",
+        "lang": "Python",
+        "desc": "drone capable of line detection & autonomous navigation",
+        "link": ""
     },
     {
-        "id": "1",
-        "index": 1,
+        "name": "jasontsan",
+        "lang": "TypeScript | React",
+        "desc": "clean & simple business website for Jason Tsan Barbering",
+        "link": "https://jasontsan.com"
+    },
+    {
+        "name": "hospi-tally",
+        "lang": "React | Firebase | Flask",
+        "desc": "healthcare management system for patients & staff",
+        "link": ""
+    },
+    {
         "name": "klue",
-        "lang": "TypeScript",
-        "desc": "a simple UI clone of Netflix using TMDB API",
+        "lang": "TypeScript | Next.js | TMDB API",
+        "desc": "simple UI clone of Netflix using TMDB API",
         "link": "https://klue-gray.vercel.app"
     },
     {
-        "id": "2",
-        "index": 2,
         "name": "r2-d2",
-        "lang": "Python",
-        "desc": "a slightly short-circuited astromech droid for Discord",
+        "lang": "Python | Discord API",
+        "desc": "slightly short-circuited astromech droid for Discord",
         "link": "https://github.com/kggurram/R2-D2"
     },
     {
-        "id": "3",
-        "index": 3,
         "name": "spotify dbms",
-        "lang": "SQL",
-        "desc": "database management application developed for CPS510",
+        "lang": "SQL | Bash | Java",
+        "desc": "database management application developed for Database Systems I",
         "link": "https://github.com/kggurram/spotify-dbms"
     },
     {
-        "id": "4",
-        "index": 4,
-        "name": "(project #5)",
-        "lang": "language",
-        "desc": "description",
-        "link": ""
-    },
-    {
-        "id": "5",
-        "index": 5,
-        "name": "(project #6)",
-        "lang": "language",
-        "desc": "description",
-        "link": ""
-    },
-    {
-        "id": "6",
-        "index": 6,
-        "name": "(project #7)",
-        "lang": "language",
-        "desc": "description",
-        "link": ""
-    },
-    {
-        "id": "7",
-        "index": 7,
-        "name": "(project #8)",
-        "lang": "language",
-        "desc": "description",
-        "link": ""
+        "name": "bookie",
+        "lang": "Java | JavaFX",
+        "desc": "bookstore application developed for Object Oriented Design",
+        "link": "https://github.com/kggurram/bookie"
     }
 ]

@@ -2,11 +2,11 @@ import React from "react";
 import { useState } from "react";
 
 const Card = ({ projName, projLang, projDesc, projLink, projImg }) => {
-  const [name, setName] = useState(projName);
-  const [lang, setLang] = useState(projLang);
-  const [desc, setDesc] = useState(projDesc);
-  const [link, setLink] = useState(projLink);
-  const [imgURL, setImgURL] = useState(projImg);
+  const name = useState(projName);
+  const lang = useState(projLang);
+  const desc = useState(projDesc);
+  const link = useState(projLink);
+  // const imgURL = useState(projImg);
 
   return (
     <div className="card 2xl:flex 2xl:flex-wrap xl:h-full h-fit xl:w-full rounded-2xl  bg-gradient-to-r from-neutral-800 to-neutral-900 backdrop-blur-xl">
@@ -15,7 +15,7 @@ const Card = ({ projName, projLang, projDesc, projLink, projImg }) => {
           href={link}
           target="_blank"
           rel="noreferrer"
-          className="xl:space-y-16 lg:space-y-12 space-y-8"
+          className="xl:space-y-12 lg:space-y-12 space-y-8"
         >
           {/* <img src={require(imgURL).default} alt={`bruh`} /> */}
           <p className=" text-neutral-500 w-fit bg-transparent px-6">{lang}</p>
