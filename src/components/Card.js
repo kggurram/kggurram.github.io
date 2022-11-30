@@ -7,7 +7,7 @@ const Card = ({ projName, projLang, projDesc, projLink, projImg }) => {
   const desc = useState(projDesc);
   const [link, setLink] = useState(projLink);
   // const imgURL = useState(projImg);
-  console.log(link);
+  // console.log(link);
   return (
     <div className="card 2xl:flex 2xl:flex-wrap xl:h-full h-fit xl:w-full rounded-2xl  bg-gradient-to-r from-neutral-800 to-neutral-900 backdrop-blur-xl">
       <div className="xl:px-4 2xl:px-8 h-full w-full bg-transparent py-12 px-8 relative duration-200 ease-out hover:scale-105">
