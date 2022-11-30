@@ -8,7 +8,7 @@ function App() {
       <div className="2xl:w-4/ xl:w-3/4 lg:w-full pr-8">
         <Header />
       </div>
-      <div className="lg:flex lg:overflow-hidden 2xl:w-4/5 lg:w-full lg:pl-8">
+      <div className="lg:flex 2xl:w-4/5 lg:w-full lg:pl-8">
         <Scroller />
       </div>
     </div>

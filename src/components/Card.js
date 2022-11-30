@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import gradient from "../assets/gradient.jpg";
 
 const Card = ({ projName, projLang, projDesc, projLink, projImg }) => {
   const [name, setName] = useState(projName);
@@ -20,7 +19,7 @@ const Card = ({ projName, projLang, projDesc, projLink, projImg }) => {
         >
           {/* <img src={require(imgURL).default} alt={`bruh`} /> */}
           <p className=" text-neutral-500 w-fit bg-transparent px-6">{lang}</p>
-          <h1 className="2xl:text-5xl lg:text-5xl text-4xl font-bold w-fit bg-transparent px-6">
+          <h1 className="2xl:text-5xl lg:text-5xl xl:text-4xl text-4xl font-bold w-fit bg-transparent px-6">
             {name}
           </h1>
           <p className="text-neutral-500 text-xl w-fit bg-transparent px-6">

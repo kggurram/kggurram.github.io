@@ -13,6 +13,7 @@ const Header = () => {
             <img
               className="wave"
               src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif"
+              alt="hello"
             ></img>
           </div>
         </div>
@@ -26,43 +27,96 @@ const Header = () => {
           <em className="not-italic">machine learning</em> & building projects
           that matter.
         </p>
-        <p className="text-teal-400 pb-8">
+        <p className="text-teal-400 pb-4">
           portfolio currently under construction . . .
         </p>
-        {/* <a className="flex space-x-3 py-8">
+        <a
+          className="flex space-x-3 pb-8"
+          href="/Karthik_Gurram_Resume.pdf"
+          target="_blank"
+          rel="noreferrer"
+        >
           <svg viewBox="0 0 48 48" width="25" height="25" fill="#e6e6e6">
             <path d="M37,47H11c-2.209,0-4-1.791-4-4V5c0-2.209,1.791-4,4-4h18.973  c0.002,0,0.005,0,0.007,0h0.02H30c0.32,0,0.593,0.161,0.776,0.395l9.829,9.829C40.84,11.407,41,11.68,41,12l0,0v0.021  c0,0.002,0,0.003,0,0.005V43C41,45.209,39.209,47,37,47z M31,4.381V11h6.619L31,4.381z M39,13h-9c-0.553,0-1-0.448-1-1V3H11  C9.896,3,9,3.896,9,5v38c0,1.104,0.896,2,2,2h26c1.104,0,2-0.896,2-2V13z M33,39H15c-0.553,0-1-0.447-1-1c0-0.552,0.447-1,1-1h18  c0.553,0,1,0.448,1,1C34,38.553,33.553,39,33,39z M33,31H15c-0.553,0-1-0.447-1-1c0-0.552,0.447-1,1-1h18c0.553,0,1,0.448,1,1  C34,30.553,33.553,31,33,31z M33,23H15c-0.553,0-1-0.447-1-1c0-0.552,0.447-1,1-1h18c0.553,0,1,0.448,1,1C34,22.553,33.553,23,33,23  z" />
           </svg>
-          <em>Paper thing for recruiters</em>
-        </a> */}
+          <em className="not-italic underline">Paper thing for recruiters</em>
+        </a>
       </div>
-      <div className="lg:mb-12 lg:mt-auto md:mt-auto flex space-x-8">
-        <img className="rounded-full" alt="" src={kg} width="75"></img>
-        <ul className="flex space-x-8 my-auto">
+      <div className="lg:mb-12 lg:mt-auto md:mt-auto flex lg:flex-col xl:flex-row xl:space-x-10 lg:space-x-0 md:space-x-6 space-x-0">
+        <img
+          className="rounded-full md:inline hidden justify-center lg:mx-auto xl:mx-0"
+          alt=""
+          src={kg}
+          width="75"
+        ></img>
+        <ul className="flex space-x-8 my-auto xl:py-0 lg:py-8 justify-center">
           <li className="">
             <a
               href="https://github.com/kggurram"
               target="_blank"
-              noref="noopener noreferrer"
-              className="flex space-x-3"
+              rel="noreferrer"
+              className="flex space-x-2"
             >
-              <svg viewBox="0 0 24 24" width="25" height="25" fill="#e6e6e6">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="#e6e6e6">
                 <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path>
               </svg>
-              <p>GitHub</p>
+              <p className="my-auto">GitHub</p>
+              <svg
+                viewBox="0 0 12 12"
+                width="15"
+                height="15"
+                fill="#e6e6e6"
+                className="my-auto"
+              >
+                <path d="M10.976 1.193A.314.314 0 0010.687 1H6.312a.313.313 0 000 .625h3.62L5.467 6.091a.313.313 0 00.443.442l4.466-4.466v3.62a.313.313 0 00.625 0V1.313a.328.328 0 00-.024-.119z"></path>
+                <path d="M3.5 1v.625H2.25a.625.625 0 00-.625.625v7.5c0 .345.28.625.625.625h7.5c.345 0 .625-.28.625-.625V8.5H11v1.875c0 .345-.28.625-.625.625h-8.75A.625.625 0 011 10.375v-8.75C1 1.28 1.28 1 1.625 1H3.5z"></path>
+              </svg>
             </a>
           </li>
           <li className="">
             <a
               href="https://www.linkedin.com/in/kggurram/"
               target="_blank"
-              noref="noopener noreferrer"
-              className="flex space-x-3"
+              rel="noreferrer"
+              className="flex space-x-2"
             >
-              <svg viewBox="0 0 24 24" width="25" height="25" fill="#e6e6e6">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="#e6e6e6">
                 <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
               </svg>
-              <p>LinkedIn</p>
+              <p className="my-auto">LinkedIn</p>
+              <svg
+                viewBox="0 0 12 12"
+                width="15"
+                height="15"
+                fill="#e6e6e6"
+                className="my-auto"
+              >
+                <path d="M10.976 1.193A.314.314 0 0010.687 1H6.312a.313.313 0 000 .625h3.62L5.467 6.091a.313.313 0 00.443.442l4.466-4.466v3.62a.313.313 0 00.625 0V1.313a.328.328 0 00-.024-.119z"></path>
+                <path d="M3.5 1v.625H2.25a.625.625 0 00-.625.625v7.5c0 .345.28.625.625.625h7.5c.345 0 .625-.28.625-.625V8.5H11v1.875c0 .345-.28.625-.625.625h-8.75A.625.625 0 011 10.375v-8.75C1 1.28 1.28 1 1.625 1H3.5z"></path>
+              </svg>
+            </a>
+          </li>
+          <li className="">
+            <a
+              href="https://twitter.com/gxrram"
+              target="_blank"
+              rel="noreferrer"
+              className="flex space-x-2"
+            >
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="#e6e6e6">
+                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+              </svg>
+              <p className="my-auto">Twitter</p>
+              <svg
+                viewBox="0 0 12 12"
+                width="15"
+                height="15"
+                fill="#e6e6e6"
+                className="my-auto"
+              >
+                <path d="M10.976 1.193A.314.314 0 0010.687 1H6.312a.313.313 0 000 .625h3.62L5.467 6.091a.313.313 0 00.443.442l4.466-4.466v3.62a.313.313 0 00.625 0V1.313a.328.328 0 00-.024-.119z"></path>
+                <path d="M3.5 1v.625H2.25a.625.625 0 00-.625.625v7.5c0 .345.28.625.625.625h7.5c.345 0 .625-.28.625-.625V8.5H11v1.875c0 .345-.28.625-.625.625h-8.75A.625.625 0 011 10.375v-8.75C1 1.28 1.28 1 1.625 1H3.5z"></path>
+              </svg>
             </a>
           </li>
         </ul>
