@@ -3,7 +3,7 @@
         "name": "autonomous drone",
         "lang": "Python",
         "desc": "drone capable of line detection & autonomous navigation",
-        "link": ""
+        "link": "https://github.com/kggurram/autonomous-drone"
     },
     {
         "name": "medlist",
