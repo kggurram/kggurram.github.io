@@ -12,6 +12,12 @@
         "link": "https://cps-714-g7.netlify.app"
     },
     {
+        "name": "bird?",
+        "lang": "Python | YOLO | CV2",
+        "desc": "bird recognition model using YOLO",
+        "link": "https://github.com/kggurram/bird-recognition"
+    },
+    {
         "name": "jasontsan",
         "lang": "TypeScript | React",
         "desc": "clean & simple business website for Jason Tsan Barbering",
