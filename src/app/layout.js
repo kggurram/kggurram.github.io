@@ -4,7 +4,7 @@ import {
   Noto_Serif_Display,
   Roboto,
   Playfair_Display,
-} from "/next/font/google";
+} from "next/font/google";
 import "./globals.css";
 
 export const metadata = {
