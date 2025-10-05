@@ -8,7 +8,7 @@ import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 const ProjectCard = (props) => {
   return (
     <a
-      className="w-full relative h-full rounded-lg border border-zinc-900 p-4 text-3xl tracking-widest hover:scale-110 duration-200 ease-out hover:border-teal-400"
+      className="w-full relative h-full rounded-lg border border-zinc-900 p-4 text-3xl tracking-widest hover:scale-105 duration-200 ease-out hover:border-teal-400"
       href={`${props.link}`}
     >
       <div className="pb-10">

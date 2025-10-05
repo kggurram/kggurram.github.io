@@ -7,7 +7,7 @@ import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
 
 const Projects = () => {
   return (
-    <div className="w-9/12 mx-auto md:w-full">
+    <div className="w-10/12 mx-auto md:w-full">
       <motion.div
         className="flex"
         initial={{ scale: 0 }}
@@ -16,13 +16,23 @@ const Projects = () => {
       >
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 w-full overflow-auto md:h-full my-10 md:my-0 gap-5 md:gap-5 rounded-lg p-5">
           <ProjectCard
+            name="tailor AI"
+            desc="resume insights & job-ready documents assistant"
+            link="https://github.com/kggurram/tailor"
+          />
+          <ProjectCard
             name="muse"
             desc="music recommendation powered by Spotify and AI"
             link="https://muse-roan.vercel.app/"
           />
           <ProjectCard
+            name="WAVs"
+            desc="audio memo analysis app for musical artists"
+            link="https://github.com/kggurram/wav"
+          />
+          <ProjectCard
             name="zen"
-            desc="task management iOS app"
+            desc="simple task management iOS app"
             link="https://github.com/kggurram/zen"
           />
           <ProjectCard
@@ -40,21 +50,21 @@ const Projects = () => {
             desc="CV models for bird detection and segmentation"
             link="https://github.com/kggurram/bird-recognition"
           />
-          <ProjectCard
+          {/* <ProjectCard
             name="klue"
             desc="UI clone of the Netflix home page"
             link="https://klue-gray.vercel.app/"
-          />
+          /> */}
           <ProjectCard
             name="spotify-dbms"
-            desc="database management application developed for CPS510"
+            desc="database management application developed for Databases course"
             link="https://github.com/kggurram/spotify-dbms"
           />
-          <ProjectCard
+          {/* <ProjectCard
             name="bookie"
             desc="bookstore application developed for COE528"
             link="https://github.com/kggurram/bookie"
-          />
+          /> */}
         </div>
       </motion.div>
     </div>
