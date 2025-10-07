@@ -7,14 +7,15 @@ import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
 
 const Projects = () => {
   return (
-    <div className="w-10/12 mx-auto md:w-full">
-      <motion.div
+    <div className="w-10/12 px-0 lg:px-0  mx-auto md:w-full lg:w-full xl:px-10">
+      {/* <motion.div
         className="flex"
         initial={{ scale: 0 }}
         animate={{ scale: [0, 1.2, 1] }}
         transition={{ duration: 0.4 }}
-      >
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 w-full overflow-auto md:h-full my-10 md:my-0 gap-5 md:gap-5 rounded-lg p-5">
+      > */}
+      <div>
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-full overflow-auto h-full my-10 md:my-0 gap-5 md:gap-5 rounded-lg p-5">
           <ProjectCard
             name="tailor AI"
             desc="resume insights & job-ready documents assistant"
@@ -30,11 +31,11 @@ const Projects = () => {
             desc="audio memo analysis app for musical artists"
             link="https://github.com/kggurram/wav"
           />
-          <ProjectCard
+          {/* <ProjectCard
             name="zen"
             desc="simple task management iOS app"
             link="https://github.com/kggurram/zen"
-          />
+          /> */}
           <ProjectCard
             name="droneline"
             desc="autonomous drone line detection"
@@ -66,7 +67,8 @@ const Projects = () => {
             link="https://github.com/kggurram/bookie"
           /> */}
         </div>
-      </motion.div>
+      </div>
+      {/* </motion.div> */}
     </div>
   );
 };

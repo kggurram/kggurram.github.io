@@ -9,13 +9,14 @@ import ArticleIcon from "@mui/icons-material/Article";
 
 const footer = () => {
   return (
-    <motion.div
-      initial={{ scale: 0 }}
-      animate={{ scale: 1 }}
-      transition={{ duration: 0.3 }}
-      className="lg:flex w-full text-xl h-fit justify-center p-10 pb-10 md:pb-20 md:p-10 lg:p-20 space-y-3 lg:space-y-0 lg:space-x-8 xl:space-x-16 text-slate-700"
-    >
-      <div className="flex justify-start space-x-3 w-fit mx-auto lg:mx-0">
+    // <motion.div
+    //   initial={{ scale: 0 }}
+    //   animate={{ scale: 1 }}
+    //   transition={{ duration: 0.3 }}
+    //   className="lg:flex w-full text-xl h-fit justify-center p-10 pb-10 md:pb-20 md:p-10 lg:p-20 space-y-3 lg:space-y-0 lg:space-x-8 xl:space-x-16 text-slate-700"
+    // >
+    <div className=" lg:flex w-full text-xl h-fit justify-center p-10 pb-10 md:pb-20 md:p-10 lg:p-20 space-y-3 lg:space-y-0 lg:space-x-8 xl:space-x-16 text-slate-700">
+      <div className=" flex justify-start space-x-3 w-fit mx-auto lg:mx-0">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="7"
@@ -30,7 +31,7 @@ const footer = () => {
             clipRule="evenodd"
           ></path>
         </svg>
-        <div className="text-lg">made in Toronto</div>
+        <div className="text-lg">Toronto</div>
       </div>
       <div className="flex justify-center w-fit mx-auto lg:w-fit">
         <ul className="flex justify-center space-x-4 ">
@@ -56,10 +57,12 @@ const footer = () => {
           </li>
         </ul>
       </div>
-      <div className="text-teal-900 w-fit italic mx-auto text-lg">
+      <div className="text-teal-950 w-fit italic mx-auto text-lg">
         escape the ordinary
       </div>
-    </motion.div>
+    </div>
+
+    // </motion.div>
   );
 };
 
