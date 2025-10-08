@@ -12,28 +12,28 @@ const ProjectCard = (props) => {
       href={`${props.link}`}
     >
       <div className="pb-10">
-        <motion.div
+        {/* <motion.div
           className="space-y-5"
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ duration: 0.3 }}
+        > */}
+        <p className="">{props.name}</p>
+        <p className="text-xl desc-text text-slate-500">{props.desc}</p>
+        <motion.div
+          className="w-fit absolute bottom-3 right-3"
+          initial={{ scale: 0 }}
+          animate={{
+            scale: [
+              0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1.5,
+              1.5, 1,
+            ],
+          }}
+          transition={{ duration: 0.5 }}
         >
-          <p className="">{props.name}</p>
-          <p className="text-xl desc-text text-slate-500">{props.desc}</p>
-          <motion.div
-            className="w-fit absolute bottom-3 right-3"
-            initial={{ scale: 0 }}
-            animate={{
-              scale: [
-                0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1.5,
-                1.5, 1,
-              ],
-            }}
-            transition={{ duration: 1 }}
-          >
-            <ArrowOutwardIcon className="text-teal-400" />
-          </motion.div>
+          <ArrowOutwardIcon className="text-teal-400" />
         </motion.div>
+        {/* </motion.div> */}
       </div>
     </a>
   );
