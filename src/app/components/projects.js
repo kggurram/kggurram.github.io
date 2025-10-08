@@ -19,7 +19,7 @@ const Projects = () => {
           <ProjectCard
             name="tailor AI"
             desc="resume insights & job-ready documents assistant"
-            link="https://tailorai-resume.vercel.app/"
+            link="https://github.com/kggurram/tailor"
           />
           <ProjectCard
             name="muse"
