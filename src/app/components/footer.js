@@ -15,7 +15,7 @@ const footer = () => {
     //   transition={{ duration: 0.3 }}
     //   className="lg:flex w-full text-xl h-fit justify-center p-10 pb-10 md:pb-20 md:p-10 lg:p-20 space-y-3 lg:space-y-0 lg:space-x-8 xl:space-x-16 text-slate-700"
     // >
-    <div className=" lg:flex w-full text-xl h-fit justify-center p-10 md:pb-20 md:p-10 lg:p-20 space-y-3 lg:space-y-0 lg:space-x-8 xl:space-x-16 text-slate-700">
+    <div className=" lg:flex w-full text-xl h-fit justify-center p-10 md:pb-10 md:py-10 lg:py-10 space-y-3 lg:space-y-0 lg:space-x-8 xl:space-x-16 text-slate-700">
       <div className=" flex justify-start space-x-3 w-fit mx-auto lg:mx-0">
         <svg
           xmlns="http://www.w3.org/2000/svg"
