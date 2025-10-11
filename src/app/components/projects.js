@@ -7,7 +7,7 @@ import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
 
 const Projects = () => {
   return (
-    <div className="w-10/12 px-0 lg:px-0  mx-auto md:w-full lg:w-full xl:px-10">
+    <div className="pb-16 max-w-7xl mx-auto">
       {/* <motion.div
         className="flex"
         initial={{ scale: 0 }}
