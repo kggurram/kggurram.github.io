@@ -67,7 +67,7 @@ const Experience = () => {
   ];
 
   return (
-    <section className="pb-24 max-w-6xl mx-auto">
+    <section className="xl:pb-16 md:pb-10 max-w-6xl mx-auto">
       <span id="experience" className="block h-0 w-0 absolute -mt-40"></span>
       {/* <h2 className="text-3xl font-bold mb-8 text-foreground">Experience</h2> */}
       <div className="space-y-8">

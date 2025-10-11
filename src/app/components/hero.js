@@ -15,12 +15,13 @@ const Hero = () => {
         animate={{ scale: [0, 1.2, 1] }}
         transition={{ duration: 0.4 }}
       > */}
-      <div className="md:flex pb-24">
+      <div className="md:flex pb-24 max-w-6xl mx-auto">
         <Image
           src="/kg.jpg"
           width={500}
           height={500}
           alt="Picture of the author"
+          priority={true}
           className="md:hidden xs:block rounded-full w-64 h-64 my-auto md:m-auto mt-24 md:mr-10"
         />
         <div className="md:pt-24 pt-12 max-w-6xl sm:w-full md:w-1/2">
@@ -47,6 +48,7 @@ const Hero = () => {
           width={500}
           height={500}
           alt="Picture of the author"
+          priority={true}
           className="hidden md:block rounded-full md:w-64 md:h-64 lg:w-80 lg:h-80 m-auto mt-24"
         />
       </div>
