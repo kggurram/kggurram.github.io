@@ -56,7 +56,7 @@ const Hero = () => {
       <div>
         <Experience></Experience>
       </div>
-      <div className="">
+      <div>
         <Projects></Projects>
       </div>
 
