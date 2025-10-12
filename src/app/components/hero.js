@@ -63,7 +63,6 @@ const Hero = () => {
             >
               projects
             </a>
-            {/* <FaArrowDown className="my-auto text-teal-400" /> */}
 
             <motion.div
               className="w-fit my-auto"
