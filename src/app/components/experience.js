@@ -61,8 +61,26 @@ const Experience = () => {
         "Django",
         "SendGrid",
         "Docker",
-        "Twilio",
+        "Node.js",
       ],
+    },
+    {
+      title: "Freelance Developer, Designer, Producer & Video/Photographer",
+      company: "Freelance",
+      // logo: "https://i.imgur.com/rvmb1KG.png",
+      // logo: "https://i.imgur.com/SE5yH55.png",
+      logo: "https://i.imgur.com/PewCU9V.png",
+      duration: "2019 - Present",
+      location: "Remote + Various",
+      description: [
+        "Developed responsive and visually stunning websites for 20+ customers across various industries, boosting client satisfaction ratings to 8.5/10",
+        "Spearheaded SEO strategies that increased organic search traffic by 70% and enhanced website rankings for 10+ clients on search engines",
+        "Optimized website performance by reducing page load times by ~5+ seconds, increasing user engagement from 20% to 60%",
+        "Designed 6 company logos utilizing Adobe Illustrator, photographed 20+ clients for headshots, creative shoots & modeling shoots, and filmed professional grade promotional material for social media",
+        "Utilized FL Studio to produce, mix, and master audio tracks for multiple projects, allowing for a 27% increase in overall production efficiency",
+        "Contributed original music for promotional materials, resulting in an increase in user engagement and brand recognition across social media platforms",
+      ],
+      technologies: ["React.js", "Python", "Flask", "Adobe CC", "FL Studio"],
     },
   ];
 
