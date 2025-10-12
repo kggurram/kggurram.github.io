@@ -5,6 +5,8 @@ import Image from "next/image";
 import Projects from "@/app/components/projects";
 import Experience from "./experience";
 import kg from "../../../public/kg.jpg";
+import { FaArrowRight } from "react-icons/fa";
+import { FaArrowDown } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -33,14 +35,51 @@ const Hero = () => {
             software engineer based in Toronto keen on fullstack development,
             ML, and building creative projects that matter
           </p>
-          <div className="pt-8 w-fit hover:scale-105 duration-200 ease-out">
+          <div className="flex pt-8 w-fit hover:scale-105 duration-200 ease-out">
             <a
               href="/resume.pdf"
               target="_blank"
-              className="text-lg decoration-3 underline underline-offset-8 decoration-teal-400"
+              className="text-lg decoration-3 underline underline-offset-8 decoration-teal-400 pr-2"
             >
               paper thing for recruiters
             </a>
+
+            <motion.div
+              className="w-fit my-auto"
+              initial={{ scale: 0 }}
+              animate={{
+                scale: [
+                  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,
+                  1.5, 1.5, 1,
+                ],
+              }}
+              transition={{ duration: 0.5 }}
+            >
+              <FaArrowRight className="my-auto text-teal-400" />
+            </motion.div>
+          </div>
+          <div className="relative flex pt-4 w-fit hover:scale-105 duration-200 ease-out">
+            <a
+              href="#projects"
+              className="flex text-lg decoration-3 underline underline-offset-8 decoration-teal-400 pr-2"
+            >
+              projects
+            </a>
+            {/* <FaArrowDown className="my-auto text-teal-400" /> */}
+
+            <motion.div
+              className="w-fit my-auto"
+              initial={{ scale: 0 }}
+              animate={{
+                scale: [
+                  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,
+                  1.5, 1.5, 1,
+                ],
+              }}
+              transition={{ duration: 0.5 }}
+            >
+              <FaArrowDown className="my-auto text-teal-400" />
+            </motion.div>
           </div>
         </div>
         <Image
@@ -56,7 +95,7 @@ const Hero = () => {
       <div>
         <Experience></Experience>
       </div>
-      <div>
+      <div className="" id="projects">
         <Projects></Projects>
       </div>
 

@@ -5,12 +5,12 @@ const ExperienceCard = ({ experience }) => {
   return (
     <div className="mb-8 flex flex-col lg:flex-row gap-4">
       <div className="w-full lg:w-1/3">
-        <div className="flex flex-col sm:flex-row lg:flex-col items-start sm:items-center lg:items-start lg:gap-4 sm:gap-8">
+        <div className="flex flex-row sm:flex-row lg:flex-col items-start sm:items-center lg:items-start lg:gap-4 sm:gap-8 gap-8">
           {experience.logo && (
             <img
               src={experience.logo}
               alt={`${experience.company} logo`}
-              className="lg:w-16 lg:h-16 h-20 w-20 object-contain rounded-xl"
+              className="lg:w-16 lg:h-16 h-20 w-20 object-contain rounded-xl my-auto"
             />
           )}
           <div>

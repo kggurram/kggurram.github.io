@@ -919,6 +919,9 @@ video {
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
+.flex-row {
+  flex-direction: row;
+}
 .flex-col {
   flex-direction: column;
 }
@@ -942,6 +945,9 @@ video {
 }
 .gap-5 {
   gap: 1.25rem;
+}
+.gap-8 {
+  gap: 2rem;
 }
 .space-x-3 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
@@ -980,6 +986,9 @@ video {
 }
 .overflow-auto {
   overflow: auto;
+}
+.scroll-smooth {
+  scroll-behavior: smooth;
 }
 .rounded-full {
   border-radius: 9999px;
@@ -1041,8 +1050,14 @@ video {
 .pb-24 {
   padding-bottom: 6rem;
 }
+.pr-2 {
+  padding-right: 0.5rem;
+}
 .pt-12 {
   padding-top: 3rem;
+}
+.pt-4 {
+  padding-top: 1rem;
 }
 .pt-8 {
   padding-top: 2rem;
