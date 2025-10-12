@@ -7,7 +7,7 @@ import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
 
 const Projects = () => {
   return (
-    <div className="pb-16 max-w-7xl mx-auto">
+    <div className="pb-16 max-w-6xl mx-auto">
       {/* <motion.div
         className="flex"
         initial={{ scale: 0 }}
@@ -15,7 +15,7 @@ const Projects = () => {
         transition={{ duration: 0.4 }}
       > */}
       <div>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-full overflow-auto h-full my-10 md:my-0 gap-5 md:gap-5 rounded-lg p-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-full overflow-auto h-full my-10 md:my-0 gap-5 md:gap-5 rounded-lg p-4">
           <ProjectCard
             name="tailor AI"
             desc="resume insights & job-ready documents assistant"

@@ -65,7 +65,7 @@ const Experience = () => {
       ],
     },
     {
-      title: "Freelance Developer, Designer, Producer & Video/Photographer",
+      title: "Freelance Developer, UI/UX Designer & Music Producer",
       company: "Freelance",
       // logo: "https://i.imgur.com/rvmb1KG.png",
       // logo: "https://i.imgur.com/SE5yH55.png",
