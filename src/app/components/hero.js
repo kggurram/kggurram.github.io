@@ -85,7 +85,7 @@ const Hero = () => {
           height={500}
           alt="Picture of the author"
           priority={true}
-          className="shadow-2xl shadow-gray-400/20 hidden md:block rounded-full md:w-64 md:h-64 lg:w-80 lg:h-80 m-auto mt-24"
+          className="shadow-[0px_0px_80px_5px_rgba(50,_50,_50,_0.5)] hidden md:block rounded-full md:w-64 md:h-64 lg:w-80 lg:h-80 m-auto mt-24"
         />
       </div>
 
