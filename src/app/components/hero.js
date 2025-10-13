@@ -7,6 +7,7 @@ import Experience from "./experience";
 import kg from "../../../public/kg.jpg";
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowDown } from "react-icons/fa";
+import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 
 const Hero = () => {
   return (
@@ -53,13 +54,13 @@ const Hero = () => {
               }}
               transition={{ duration: 0.5 }}
             >
-              <FaArrowRight className="my-auto text-teal-400" />
+              <ArrowOutwardIcon className="text-teal-400 p-0.5 font-bold" />
             </motion.div>
           </div>
-          <div className="relative flex pt-4 w-fit hover:scale-105 duration-200 ease-out">
+          <div className=" flex pt-4 w-fit hover:scale-105 duration-200 ease-out">
             <a
               href="#projects"
-              className="flex text-lg decoration-3 underline underline-offset-8 decoration-teal-400 pr-2"
+              className="text-lg decoration-3 underline underline-offset-8 decoration-teal-400 pr-2"
             >
               projects
             </a>
